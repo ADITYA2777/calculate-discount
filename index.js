@@ -2,7 +2,7 @@
 
 const audio = new Audio("./alert.mp3")
 const discountBtn = document.getElementById("dis-btn");
-discountBtn.addEventListener(("click", () => {
+discountBtn.addEventListener("click", () => {
     let OriginalPrice = document.querySelector("#actualPrice").value
     let DiscountPrice = document.querySelector("#actualDiscount").value;
 
@@ -19,4 +19,4 @@ discountBtn.addEventListener(("click", () => {
     discount on  this product`;
         document.querySelector(".img-gif").style.display="flex";
     }
-}));
+});
